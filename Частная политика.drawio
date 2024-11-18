@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Страница — 1" id="F6n5VaN98dRdah8Y_vMV">
-    <mxGraphModel dx="1290" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,21 +162,16 @@
         <mxCell id="dgX-Nop2Ed3O4w_gzPD5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.995;entryY=0.42;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="E6243JHvhFhHzLVXSg1c-10" target="dgX-Nop2Ed3O4w_gzPD5-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dgX-Nop2Ed3O4w_gzPD5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dgX-Nop2Ed3O4w_gzPD5-7" target="Lkbmr9ztaogf8I7Au_Ya-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="260" y="580" />
-              <mxPoint x="260" y="475" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="keBUUQs72v3XUNlF5tIR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dgX-Nop2Ed3O4w_gzPD5-7" target="keBUUQs72v3XUNlF5tIR-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dgX-Nop2Ed3O4w_gzPD5-7" value="&lt;b&gt;Нейросеть генерирует тип нарушителя&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="260" y="850" width="80" height="80" as="geometry" />
+        <mxCell id="dgX-Nop2Ed3O4w_gzPD5-7" value="&lt;b&gt;БДУ ФСТЭК&lt;/b&gt;&lt;div&gt;&lt;b&gt;https://bdu.fstec.ru/threat-section/potential&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="207" y="860" width="94" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="yYIuE2W1_EvdducnN4Vi-1" value="&lt;b&gt;Фикисрованный список должностей&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="yYIuE2W1_EvdducnN4Vi-1" value="&lt;b&gt;Фикисрованный список должностей&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="544" y="720" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="yYIuE2W1_EvdducnN4Vi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yYIuE2W1_EvdducnN4Vi-1" target="Lkbmr9ztaogf8I7Au_Ya-25">
+        <mxCell id="yYIuE2W1_EvdducnN4Vi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yYIuE2W1_EvdducnN4Vi-1" target="Lkbmr9ztaogf8I7Au_Ya-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="760" y="775" />
@@ -184,11 +179,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yYIuE2W1_EvdducnN4Vi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="yYIuE2W1_EvdducnN4Vi-3" target="Lkbmr9ztaogf8I7Au_Ya-14">
+        <mxCell id="yYIuE2W1_EvdducnN4Vi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="yYIuE2W1_EvdducnN4Vi-3" target="Lkbmr9ztaogf8I7Au_Ya-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yYIuE2W1_EvdducnN4Vi-3" value="&lt;b&gt;Меры противодействия Mitre Attack&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="344" y="735" width="105" height="105" as="geometry" />
+        <mxCell id="yYIuE2W1_EvdducnN4Vi-3" value="&lt;b&gt;Меры противодействия Mitre Attack&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="400" y="720" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="keBUUQs72v3XUNlF5tIR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="keBUUQs72v3XUNlF5tIR-1" target="Lkbmr9ztaogf8I7Au_Ya-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBUUQs72v3XUNlF5tIR-1" value="&lt;b&gt;Нейросеть генерирует тип нарушителя&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="214" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="keBUUQs72v3XUNlF5tIR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="keBUUQs72v3XUNlF5tIR-5" target="keBUUQs72v3XUNlF5tIR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBUUQs72v3XUNlF5tIR-5" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="723" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="keBUUQs72v3XUNlF5tIR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="keBUUQs72v3XUNlF5tIR-6" target="keBUUQs72v3XUNlF5tIR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keBUUQs72v3XUNlF5tIR-6" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="763" width="34" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

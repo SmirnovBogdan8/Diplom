@@ -91,21 +91,6 @@
         <mxCell id="sF8QmaDW5P4_6br0JUgz-3" value="Меры контроля" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sF8QmaDW5P4_6br0JUgz-1" vertex="1">
           <mxGeometry y="110" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h8H2ayjwPN8MHShKauNK-1" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="120" y="120" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="h8H2ayjwPN8MHShKauNK-2" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="480" y="120" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="h8H2ayjwPN8MHShKauNK-3" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="120" y="360" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="h8H2ayjwPN8MHShKauNK-4" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="480" y="360" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="h8H2ayjwPN8MHShKauNK-5" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="120" y="560" width="40" height="40" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

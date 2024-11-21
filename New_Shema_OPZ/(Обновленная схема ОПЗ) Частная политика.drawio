@@ -163,7 +163,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3DxXuhkOf2amvJogg9W--4" value="&lt;b&gt;Перечень объектов воздействия&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;https://bdu.fstec.ru/threat-section/objects&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3DxXuhkOf2amvJogg9W--4" value="Перечень объектов воздействия&lt;br&gt;&lt;div&gt;https://bdu.fstec.ru/threat-section/objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="870" width="157.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3DxXuhkOf2amvJogg9W--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3DxXuhkOf2amvJogg9W--5" target="keBUUQs72v3XUNlF5tIR-1" edge="1">
@@ -174,7 +174,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3DxXuhkOf2amvJogg9W--5" value="&lt;b&gt;Уровни возможностей нарушителей&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;https://bdu.fstec.ru/&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;threat-section/potential&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3DxXuhkOf2amvJogg9W--5" value="Уровни возможностей нарушителей&lt;br&gt;&lt;div&gt;https://bdu.fstec.ru/&lt;/div&gt;&lt;div&gt;threat-section/potential&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="870" width="144" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3DxXuhkOf2amvJogg9W--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3DxXuhkOf2amvJogg9W--6" target="yYIuE2W1_EvdducnN4Vi-3" edge="1">
@@ -185,7 +185,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3DxXuhkOf2amvJogg9W--6" value="&lt;b&gt;Перечень мер&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;https://attack.mitre.org/&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;mitigations/&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3DxXuhkOf2amvJogg9W--6" value="Перечень мер&lt;br&gt;&lt;div&gt;https://attack.mitre.org/&lt;/div&gt;&lt;div&gt;mitigations/&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="870" width="144" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3DxXuhkOf2amvJogg9W--10" value="Результат вывода ОПЗ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">

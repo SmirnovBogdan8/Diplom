@@ -4,14 +4,38 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6BPBLCMizLLzq73NnSz2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6BPBLCMizLLzq73NnSz2-1" target="6BPBLCMizLLzq73NnSz2-2">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OOqjMSeqivN8oYtt3gbK-2" target="OOqjMSeqivN8oYtt3gbK-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6BPBLCMizLLzq73NnSz2-1" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="360" y="40" width="130" height="40" as="geometry" />
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-2" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6BPBLCMizLLzq73NnSz2-2" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="360" y="480" width="130" height="40" as="geometry" />
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-3" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="580" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OOqjMSeqivN8oYtt3gbK-5" target="OOqjMSeqivN8oYtt3gbK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-5" value="Ввод: CAPEC, CWE, результат калькулятора CVSS" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OOqjMSeqivN8oYtt3gbK-7" target="OOqjMSeqivN8oYtt3gbK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-7" value="ПО обращается к API нейросети для генерации функциональных знаний и требований к умениям" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="260" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OOqjMSeqivN8oYtt3gbK-9" target="OOqjMSeqivN8oYtt3gbK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-9" value="Создание файла csv таблицы &quot;Инциденты ИБ&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OOqjMSeqivN8oYtt3gbK-11" target="OOqjMSeqivN8oYtt3gbK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-11" value="Вывод: файл CSV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

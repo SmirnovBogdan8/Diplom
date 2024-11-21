@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Страница — 1" id="F6n5VaN98dRdah8Y_vMV">
-    <mxGraphModel dx="1290" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="Lkbmr9ztaogf8I7Au_Ya-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="160" as="sourcePoint" />
-            <mxPoint x="40" y="1080" as="targetPoint" />
+            <mxPoint x="40" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Lkbmr9ztaogf8I7Au_Ya-25" value="Должности ИБ" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -78,35 +78,29 @@
         </mxCell>
         <mxCell id="9gQDCfYS-W_Uyl3KTiAW-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="1080" as="sourcePoint" />
-            <mxPoint x="680" y="1080" as="targetPoint" />
+            <mxPoint x="40" y="960" as="sourcePoint" />
+            <mxPoint x="680" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KzmfI-0raChceTE4V1PN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgX-Nop2Ed3O4w_gzPD5-1" target="KzmfI-0raChceTE4V1PN-3">
+        <mxCell id="3DxXuhkOf2amvJogg9W--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgX-Nop2Ed3O4w_gzPD5-1" target="KzmfI-0raChceTE4V1PN-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="154" y="690" />
-              <mxPoint x="60" y="690" />
+              <mxPoint x="120" y="640" />
+              <mxPoint x="60" y="640" />
               <mxPoint x="60" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dgX-Nop2Ed3O4w_gzPD5-1" value="&lt;b&gt;Нейросеть генерирует объекты защиты&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="114" y="720" width="80" height="80" as="geometry" />
+        <mxCell id="dgX-Nop2Ed3O4w_gzPD5-1" value="ПО генерирует объекты защиты" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="80" y="720" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="keBUUQs72v3XUNlF5tIR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dgX-Nop2Ed3O4w_gzPD5-7" target="keBUUQs72v3XUNlF5tIR-1" edge="1">
+        <mxCell id="KzmfI-0raChceTE4V1PN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yYIuE2W1_EvdducnN4Vi-1" target="KzmfI-0raChceTE4V1PN-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dgX-Nop2Ed3O4w_gzPD5-7" value="&lt;b&gt;Уровни возможностей нарушителей&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;https://bdu.fstec.ru/threat-section/potential&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="260" y="890" width="151" height="151" as="geometry" />
+        <mxCell id="yYIuE2W1_EvdducnN4Vi-1" value="Фикисро-ванный список должностей" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="560" y="720" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KzmfI-0raChceTE4V1PN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yYIuE2W1_EvdducnN4Vi-1" target="KzmfI-0raChceTE4V1PN-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yYIuE2W1_EvdducnN4Vi-1" value="&lt;b&gt;Фикисрованный список должностей&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="560" y="720" width="110" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="KzmfI-0raChceTE4V1PN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yYIuE2W1_EvdducnN4Vi-3" target="KzmfI-0raChceTE4V1PN-4">
+        <mxCell id="KzmfI-0raChceTE4V1PN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yYIuE2W1_EvdducnN4Vi-3" target="KzmfI-0raChceTE4V1PN-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="466" y="640" />
@@ -115,38 +109,93 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yYIuE2W1_EvdducnN4Vi-3" value="&lt;b&gt;Меры противодействия Mitre Attack&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="413.5" y="720" width="105" height="105" as="geometry" />
+        <mxCell id="yYIuE2W1_EvdducnN4Vi-3" value="ПО генери-рует меры противод-ействия" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="401.5" y="720" width="78.5" height="78.5" as="geometry" />
         </mxCell>
-        <mxCell id="KzmfI-0raChceTE4V1PN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="keBUUQs72v3XUNlF5tIR-1" target="KzmfI-0raChceTE4V1PN-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KzmfI-0raChceTE4V1PN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="keBUUQs72v3XUNlF5tIR-1" target="KzmfI-0raChceTE4V1PN-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="640" />
+              <mxPoint x="310" y="640" />
+              <mxPoint x="310" y="380" />
+              <mxPoint x="100" y="380" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="keBUUQs72v3XUNlF5tIR-1" value="&lt;b&gt;Нейросеть генерирует тип нарушителя&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="295.5" y="720" width="80" height="80" as="geometry" />
+        <mxCell id="keBUUQs72v3XUNlF5tIR-1" value="ПО генерирует тип нарушителя" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="240" y="720" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mwctoAQ5bX3hqZnoNurU-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="160" as="sourcePoint" />
-            <mxPoint x="680" y="1080" as="targetPoint" />
+            <mxPoint x="680" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KzmfI-0raChceTE4V1PN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mwctoAQ5bX3hqZnoNurU-4" target="dgX-Nop2Ed3O4w_gzPD5-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mwctoAQ5bX3hqZnoNurU-4" value="&lt;b&gt;Перечень объектов воздействия&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;https://bdu.fstec.ru/threat-section/objects&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="95.5" y="924" width="117" height="117" as="geometry" />
-        </mxCell>
-        <mxCell id="KzmfI-0raChceTE4V1PN-3" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="KzmfI-0raChceTE4V1PN-3" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="80" y="200" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KzmfI-0raChceTE4V1PN-4" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="KzmfI-0raChceTE4V1PN-4" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="440" y="200" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KzmfI-0raChceTE4V1PN-5" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="KzmfI-0raChceTE4V1PN-5" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="80" y="400" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KzmfI-0raChceTE4V1PN-6" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="KzmfI-0raChceTE4V1PN-6" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="440" y="400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3DxXuhkOf2amvJogg9W--1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="680" as="sourcePoint" />
+            <mxPoint x="680" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DxXuhkOf2amvJogg9W--2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="840" as="sourcePoint" />
+            <mxPoint x="680" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DxXuhkOf2amvJogg9W--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3DxXuhkOf2amvJogg9W--4" target="dgX-Nop2Ed3O4w_gzPD5-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="159" y="860" />
+              <mxPoint x="120" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DxXuhkOf2amvJogg9W--4" value="&lt;b&gt;Перечень объектов воздействия&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;https://bdu.fstec.ru/threat-section/objects&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="870" width="157.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3DxXuhkOf2amvJogg9W--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3DxXuhkOf2amvJogg9W--5" target="keBUUQs72v3XUNlF5tIR-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="352" y="860" />
+              <mxPoint x="280" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DxXuhkOf2amvJogg9W--5" value="&lt;b&gt;Уровни возможностей нарушителей&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;https://bdu.fstec.ru/&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;threat-section/potential&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="870" width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3DxXuhkOf2amvJogg9W--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3DxXuhkOf2amvJogg9W--6" target="yYIuE2W1_EvdducnN4Vi-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="860" />
+              <mxPoint x="441" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DxXuhkOf2amvJogg9W--6" value="&lt;b&gt;Перечень мер&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;https://attack.mitre.org/&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;mitigations/&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="870" width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3DxXuhkOf2amvJogg9W--10" value="Результат вывода ОПЗ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3DxXuhkOf2amvJogg9W--11" value="Работа ПО" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3DxXuhkOf2amvJogg9W--12" value="Внешние данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="930" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

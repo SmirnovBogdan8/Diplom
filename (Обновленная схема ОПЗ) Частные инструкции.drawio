@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Страница — 1" id="ICKh0Rubx5kFhzMo8I9A">
-    <mxGraphModel dx="1290" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,13 +19,13 @@
         <mxCell id="rjg_p7jUvO2MHr7AOark-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="200" as="sourcePoint" />
-            <mxPoint x="40" y="720" as="targetPoint" />
+            <mxPoint x="40" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rjg_p7jUvO2MHr7AOark-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="200" as="sourcePoint" />
-            <mxPoint x="680" y="720" as="targetPoint" />
+            <mxPoint x="680" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rjg_p7jUvO2MHr7AOark-25" value="Функциональные знания и умения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -64,45 +64,85 @@
         <mxCell id="rjg_p7jUvO2MHr7AOark-35" value="id Должности FK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="rjg_p7jUvO2MHr7AOark-33" vertex="1">
           <mxGeometry y="60" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cj-KoUkA17Is79wx5rCt-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uabi27Ls0RjpIvT9uaum-1" target="Uabi27Ls0RjpIvT9uaum-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uabi27Ls0RjpIvT9uaum-6" target="cj-KoUkA17Is79wx5rCt-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="558" y="420" />
+              <mxPoint x="460" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Uabi27Ls0RjpIvT9uaum-1" value="&lt;b&gt;Государственный реестр сертифицированных СЗИ ФСТЭК&lt;/b&gt;&lt;br&gt;&lt;b&gt;https://reestr.fstec.ru/reg3&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="400" y="585" width="120" height="120" as="geometry" />
+        <mxCell id="Uabi27Ls0RjpIvT9uaum-6" value="ПО генерирует список СЗИ" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="520" y="597.5" width="75" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="cj-KoUkA17Is79wx5rCt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uabi27Ls0RjpIvT9uaum-6" target="cj-KoUkA17Is79wx5rCt-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Uabi27Ls0RjpIvT9uaum-6" value="&lt;b&gt;Нейросеть генерирует список СЗИ&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="405" y="440" width="110" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="cj-KoUkA17Is79wx5rCt-1" value="13" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="cj-KoUkA17Is79wx5rCt-1" value="13" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="80" y="240" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cj-KoUkA17Is79wx5rCt-2" value="14" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="cj-KoUkA17Is79wx5rCt-2" value="14" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="440" y="240" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cj-KoUkA17Is79wx5rCt-3" value="15" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="cj-KoUkA17Is79wx5rCt-3" value="15" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="80" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cj-KoUkA17Is79wx5rCt-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj-KoUkA17Is79wx5rCt-20" target="cj-KoUkA17Is79wx5rCt-3">
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj-KoUkA17Is79wx5rCt-20" target="cj-KoUkA17Is79wx5rCt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj-KoUkA17Is79wx5rCt-20" value="ПО генерирует РМД" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="320" y="597.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="32Z1vDWWWOsfgA5ii7ON-1" target="32Z1vDWWWOsfgA5ii7ON-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="560" />
-              <mxPoint x="100" y="560" />
+              <mxPoint x="260" y="740" />
+              <mxPoint x="160" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cj-KoUkA17Is79wx5rCt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj-KoUkA17Is79wx5rCt-20" target="cj-KoUkA17Is79wx5rCt-1">
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="32Z1vDWWWOsfgA5ii7ON-1" target="cj-KoUkA17Is79wx5rCt-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="60" y="640" />
-              <mxPoint x="60" y="260" />
+              <mxPoint x="260" y="740" />
+              <mxPoint x="360" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cj-KoUkA17Is79wx5rCt-20" value="Частная политика" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="200" y="600" width="80" height="80" as="geometry" />
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-1" value="Результат вывода Частной политики" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="32Z1vDWWWOsfgA5ii7ON-2" target="Uabi27Ls0RjpIvT9uaum-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="488" y="740" />
+              <mxPoint x="558" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-2" value="Государственный реестр СЗИ ФСТЭК&lt;br&gt;https://reestr.&lt;span style=&quot;background-color: initial;&quot;&gt;fstec.ru/&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;reg3&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="760" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-3" value="ПО генерирует требования к знаниям и умениям" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="597.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="560" as="sourcePoint" />
+            <mxPoint x="680" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="840" as="sourcePoint" />
+            <mxPoint x="680" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-14" value="Результат вывода ОПЗ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-15" value="Работа ПО" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32Z1vDWWWOsfgA5ii7ON-22" value="Внешние данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="810" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

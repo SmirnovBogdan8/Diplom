@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Страница — 1" id="FZuVYSKQKKseB5JXQPXO">
+    <mxGraphModel dx="1386" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2iJVxllD-oetVzbNtNZ9-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2iJVxllD-oetVzbNtNZ9-2" target="2iJVxllD-oetVzbNtNZ9-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2iJVxllD-oetVzbNtNZ9-2" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="370" y="50" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2iJVxllD-oetVzbNtNZ9-3" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="370" y="600" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2iJVxllD-oetVzbNtNZ9-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2iJVxllD-oetVzbNtNZ9-5" target="2iJVxllD-oetVzbNtNZ9-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2iJVxllD-oetVzbNtNZ9-5" value="Ввод: CAPEC, CWE, URL базы типов нарушителей" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="130" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBo-n5r64KNBPTR6YmKQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2iJVxllD-oetVzbNtNZ9-7" target="2iJVxllD-oetVzbNtNZ9-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2iJVxllD-oetVzbNtNZ9-7" value="ПО обращается к ресурсу&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;https://bdu.fstec.ru/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;threat-section/potential&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="307.5" y="230" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBo-n5r64KNBPTR6YmKQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2iJVxllD-oetVzbNtNZ9-24" target="2iJVxllD-oetVzbNtNZ9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2iJVxllD-oetVzbNtNZ9-24" value="Создание файла csv таблицы &quot;Модель нарушителя&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="366.25" y="400" width="137.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qBo-n5r64KNBPTR6YmKQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2iJVxllD-oetVzbNtNZ9-26" target="2iJVxllD-oetVzbNtNZ9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2iJVxllD-oetVzbNtNZ9-26" value="Вывод: файл CSV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="490" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBo-n5r64KNBPTR6YmKQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2iJVxllD-oetVzbNtNZ9-22" target="2iJVxllD-oetVzbNtNZ9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2iJVxllD-oetVzbNtNZ9-22" value="Получение списка типов нарушителей" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="366.25" y="320" width="137.5" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.8">
   <diagram name="Страница — 1" id="eE1Gje8A0oezQRLzRqn4">
     <mxGraphModel dx="1386" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,8 +129,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_POBZS_AvcctEKIHJC5_-3" value="Результат работы калькулятора CVSS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="840" width="120" height="60" as="geometry" />
+        <mxCell id="_POBZS_AvcctEKIHJC5_-3" value="Результат работы калькулятора SSVC&lt;div&gt;https://www.cisa.gov/ssvc-calculator&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="840" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_POBZS_AvcctEKIHJC5_-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">

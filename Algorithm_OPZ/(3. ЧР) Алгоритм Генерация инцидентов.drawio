@@ -1,40 +1,40 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.8">
   <diagram name="Страница — 1" id="FZuVYSKQKKseB5JXQPXO">
     <mxGraphModel dx="1386" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OOqjMSeqivN8oYtt3gbK-2" target="OOqjMSeqivN8oYtt3gbK-5">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OOqjMSeqivN8oYtt3gbK-2" target="OOqjMSeqivN8oYtt3gbK-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-2" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-2" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="400" y="80" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-3" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-3" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="400" y="580" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OOqjMSeqivN8oYtt3gbK-5" target="OOqjMSeqivN8oYtt3gbK-7">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OOqjMSeqivN8oYtt3gbK-5" target="OOqjMSeqivN8oYtt3gbK-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-5" value="Ввод: CAPEC, CWE, результат калькулятора CVSS" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-5" value="Ввод: CAPEC, CWE, результат калькулятора SSVC" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="160" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OOqjMSeqivN8oYtt3gbK-7" target="OOqjMSeqivN8oYtt3gbK-9">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OOqjMSeqivN8oYtt3gbK-7" target="OOqjMSeqivN8oYtt3gbK-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-7" value="ПО обращается к API нейросети для генерации функциональных знаний и требований к умениям" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-7" value="ПО обращается к API SSVC для генерации списка инцидентов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="337.5" y="260" width="255" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OOqjMSeqivN8oYtt3gbK-9" target="OOqjMSeqivN8oYtt3gbK-11">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OOqjMSeqivN8oYtt3gbK-9" target="OOqjMSeqivN8oYtt3gbK-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-9" value="Создание файла csv таблицы &quot;Инциденты ИБ&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-9" value="Создание файла csv таблицы &quot;Инциденты ИБ&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="360" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OOqjMSeqivN8oYtt3gbK-11" target="OOqjMSeqivN8oYtt3gbK-3">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OOqjMSeqivN8oYtt3gbK-11" target="OOqjMSeqivN8oYtt3gbK-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-11" value="Вывод: файл CSV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="OOqjMSeqivN8oYtt3gbK-11" value="Вывод: файл CSV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="460" width="170" height="60" as="geometry" />
         </mxCell>
       </root>

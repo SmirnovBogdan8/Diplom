@@ -46,12 +46,6 @@
         <mxCell id="rngy8vZI5L_hg_P6Utqn-12" value="Вывод сообщения об ошибке поиска" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rngy8vZI5L_hg_P6Utqn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rngy8vZI5L_hg_P6Utqn-14" target="rngy8vZI5L_hg_P6Utqn-25" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rngy8vZI5L_hg_P6Utqn-14" value="ПО сопоставляет CWE и CVE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="571" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="rngy8vZI5L_hg_P6Utqn-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rngy8vZI5L_hg_P6Utqn-16" target="rngy8vZI5L_hg_P6Utqn-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -74,11 +68,11 @@
         <mxCell id="rngy8vZI5L_hg_P6Utqn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rngy8vZI5L_hg_P6Utqn-12" target="rngy8vZI5L_hg_P6Utqn-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rngy8vZI5L_hg_P6Utqn-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rngy8vZI5L_hg_P6Utqn-22" target="rngy8vZI5L_hg_P6Utqn-14" edge="1">
+        <mxCell id="3qzs-Gi3IfBeR15vDR0y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rngy8vZI5L_hg_P6Utqn-22" target="rngy8vZI5L_hg_P6Utqn-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rngy8vZI5L_hg_P6Utqn-22" value="&lt;div&gt;Результат&lt;/div&gt;Galeax-CVE2CAPEC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="522.5" y="481" width="137.5" height="60" as="geometry" />
+          <mxGeometry x="520" y="580" width="137.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rngy8vZI5L_hg_P6Utqn-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rngy8vZI5L_hg_P6Utqn-25" target="rngy8vZI5L_hg_P6Utqn-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -108,11 +102,17 @@
         <mxCell id="rngy8vZI5L_hg_P6Utqn-29" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="681" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rngy8vZI5L_hg_P6Utqn-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rngy8vZI5L_hg_P6Utqn-31" target="rngy8vZI5L_hg_P6Utqn-22" edge="1">
+        <mxCell id="3qzs-Gi3IfBeR15vDR0y-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rngy8vZI5L_hg_P6Utqn-31" target="3qzs-Gi3IfBeR15vDR0y-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rngy8vZI5L_hg_P6Utqn-31" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Galeax-CVE2CAPEC&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;обновляет датасет CVE&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="516.25" y="390" width="150" height="60" as="geometry" />
+          <mxGeometry x="514" y="390" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3qzs-Gi3IfBeR15vDR0y-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3qzs-Gi3IfBeR15vDR0y-3" target="rngy8vZI5L_hg_P6Utqn-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qzs-Gi3IfBeR15vDR0y-3" value="&lt;div&gt;ПО обращается датасет CVE&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="513.5" y="480" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

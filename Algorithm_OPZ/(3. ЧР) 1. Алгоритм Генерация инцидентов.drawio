@@ -4,38 +4,79 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OOqjMSeqivN8oYtt3gbK-2" target="OOqjMSeqivN8oYtt3gbK-5" edge="1">
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="4-gj9_JSfRjHjwscXcXN-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4-gj9_JSfRjHjwscXcXN-27" target="4-gj9_JSfRjHjwscXcXN-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-2" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="400" y="80" width="130" height="40" as="geometry" />
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-27" value="Ввод: список техник-объектов-нарушителей" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-3" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="400" y="580" width="130" height="40" as="geometry" />
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-28" value="Поиск нужного датасет инцидентов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="220" width="255" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OOqjMSeqivN8oYtt3gbK-5" target="OOqjMSeqivN8oYtt3gbK-7" edge="1">
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-gj9_JSfRjHjwscXcXN-28" target="4-gj9_JSfRjHjwscXcXN-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="511.5" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-30" value="Сообщение об ошибке" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4-gj9_JSfRjHjwscXcXN-30" target="4-gj9_JSfRjHjwscXcXN-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4-gj9_JSfRjHjwscXcXN-33" target="4-gj9_JSfRjHjwscXcXN-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-5" value="Ввод: CAPEC, CWE" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="160" width="170" height="60" as="geometry" />
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-33" value="ПО получает соотношение инцидент-техника-объект-нарушитель" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OOqjMSeqivN8oYtt3gbK-7" target="OOqjMSeqivN8oYtt3gbK-9" edge="1">
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-gj9_JSfRjHjwscXcXN-36" target="4-gj9_JSfRjHjwscXcXN-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-7" value="ПО обращается к датасет инцидентов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="337.5" y="260" width="255" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OOqjMSeqivN8oYtt3gbK-9" target="OOqjMSeqivN8oYtt3gbK-11" edge="1">
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-gj9_JSfRjHjwscXcXN-36" target="4-gj9_JSfRjHjwscXcXN-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-9" value="Создание файла csv таблицы &quot;Инциденты ИБ&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="360" width="250" height="50" as="geometry" />
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-36" value="Высокая точность результата?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321.25" y="430" width="207.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OOqjMSeqivN8oYtt3gbK-11" target="OOqjMSeqivN8oYtt3gbK-3" edge="1">
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4-gj9_JSfRjHjwscXcXN-38" target="4-gj9_JSfRjHjwscXcXN-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OOqjMSeqivN8oYtt3gbK-11" value="Вывод: файл CSV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="460" width="170" height="60" as="geometry" />
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-38" value="Парсинг полученных данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516.25" y="520" width="137.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-gj9_JSfRjHjwscXcXN-40" target="4-gj9_JSfRjHjwscXcXN-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-40" value="Создание документа Инциденты ИБ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516.25" y="600" width="137.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4-gj9_JSfRjHjwscXcXN-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-42" value="Вывод: документ&amp;nbsp;&lt;div&gt;Инциденты ИБ&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="710" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-43" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-44" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-45" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4-gj9_JSfRjHjwscXcXN-46" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="355" y="800" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

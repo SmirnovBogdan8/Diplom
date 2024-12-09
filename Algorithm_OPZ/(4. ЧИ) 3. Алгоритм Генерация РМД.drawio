@@ -22,20 +22,20 @@
         <mxCell id="g7J_c9dn4xPf3BArOAEV-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g7J_c9dn4xPf3BArOAEV-18" target="g7J_c9dn4xPf3BArOAEV-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g7J_c9dn4xPf3BArOAEV-18" value="ПО обращается к таблицам объектов и должностей для генерации РМД" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="g7J_c9dn4xPf3BArOAEV-18" value="ПО обращается к документам объектов и должностей для генерации РМД" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="327.5" y="250" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g7J_c9dn4xPf3BArOAEV-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g7J_c9dn4xPf3BArOAEV-20" target="g7J_c9dn4xPf3BArOAEV-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g7J_c9dn4xPf3BArOAEV-20" value="Создание файла csv таблицы &quot;Разграничительная матрица доступа&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="g7J_c9dn4xPf3BArOAEV-20" value="Создание файла документа Разграничительная матрица доступа" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="350" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="g7J_c9dn4xPf3BArOAEV-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g7J_c9dn4xPf3BArOAEV-22" target="g7J_c9dn4xPf3BArOAEV-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g7J_c9dn4xPf3BArOAEV-22" value="Вывод: файл CSV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="450" width="170" height="60" as="geometry" />
+        <mxCell id="g7J_c9dn4xPf3BArOAEV-22" value="Вывод: документа Разграничительная матрица доступа" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="460" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

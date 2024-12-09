@@ -4,44 +4,79 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2iJVxllD-oetVzbNtNZ9-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2iJVxllD-oetVzbNtNZ9-2" target="2iJVxllD-oetVzbNtNZ9-5" edge="1">
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="aIFWk4Jm3tVMZY_rUiKk-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aIFWk4Jm3tVMZY_rUiKk-3" target="aIFWk4Jm3tVMZY_rUiKk-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2iJVxllD-oetVzbNtNZ9-2" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="370" y="50" width="130" height="40" as="geometry" />
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-3" value="Ввод: список техник-уязвимостей-объектов" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2iJVxllD-oetVzbNtNZ9-3" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="370" y="600" width="130" height="40" as="geometry" />
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-4" value="Поиск нужного датасет нарушителей" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="220" width="255" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2iJVxllD-oetVzbNtNZ9-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2iJVxllD-oetVzbNtNZ9-5" target="2iJVxllD-oetVzbNtNZ9-7" edge="1">
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aIFWk4Jm3tVMZY_rUiKk-4" target="aIFWk4Jm3tVMZY_rUiKk-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="511.5" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-6" value="Сообщение об ошибке" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aIFWk4Jm3tVMZY_rUiKk-6" target="aIFWk4Jm3tVMZY_rUiKk-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aIFWk4Jm3tVMZY_rUiKk-9" target="aIFWk4Jm3tVMZY_rUiKk-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2iJVxllD-oetVzbNtNZ9-5" value="Ввод: CAPEC, CWE базы типов нарушителей" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="130" width="170" height="60" as="geometry" />
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-9" value="ПО получает соотношение техника-уязвимости-объект-нарушитель" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qBo-n5r64KNBPTR6YmKQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2iJVxllD-oetVzbNtNZ9-7" target="2iJVxllD-oetVzbNtNZ9-22" edge="1">
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aIFWk4Jm3tVMZY_rUiKk-12" target="aIFWk4Jm3tVMZY_rUiKk-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2iJVxllD-oetVzbNtNZ9-7" value="ПО обращается к датасет моделей нарушителя" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="307.5" y="230" width="255" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qBo-n5r64KNBPTR6YmKQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2iJVxllD-oetVzbNtNZ9-24" target="2iJVxllD-oetVzbNtNZ9-26" edge="1">
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aIFWk4Jm3tVMZY_rUiKk-12" target="aIFWk4Jm3tVMZY_rUiKk-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2iJVxllD-oetVzbNtNZ9-24" value="Создание файла csv таблицы &quot;Модель нарушителя&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="366.25" y="400" width="137.5" height="50" as="geometry" />
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-12" value="Высокая точность результата?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321.25" y="430" width="207.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qBo-n5r64KNBPTR6YmKQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2iJVxllD-oetVzbNtNZ9-26" target="2iJVxllD-oetVzbNtNZ9-3" edge="1">
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aIFWk4Jm3tVMZY_rUiKk-14" target="aIFWk4Jm3tVMZY_rUiKk-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2iJVxllD-oetVzbNtNZ9-26" value="Вывод: файл CSV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="490" width="170" height="60" as="geometry" />
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-14" value="Парсинг полученных данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516.25" y="520" width="137.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qBo-n5r64KNBPTR6YmKQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2iJVxllD-oetVzbNtNZ9-22" target="2iJVxllD-oetVzbNtNZ9-24" edge="1">
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aIFWk4Jm3tVMZY_rUiKk-16" target="aIFWk4Jm3tVMZY_rUiKk-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2iJVxllD-oetVzbNtNZ9-22" value="Получение списка типов нарушителей" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="366.25" y="320" width="137.5" height="50" as="geometry" />
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-16" value="Создание документа Модель нарушителя" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516.25" y="600" width="137.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aIFWk4Jm3tVMZY_rUiKk-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-18" value="Вывод: документ Модель нарушителя" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="710" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-19" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-20" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-21" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aIFWk4Jm3tVMZY_rUiKk-22" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="355" y="800" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -4,50 +4,83 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YAV5CIgd_lY1n8gO6L1_-2" target="YAV5CIgd_lY1n8gO6L1_-5" edge="1">
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-2" target="bkzH_HI_l93UBFhGANAZ-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-2" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="410" y="90" width="130" height="40" as="geometry" />
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-2" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-3" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="410" y="770" width="130" height="40" as="geometry" />
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-3" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="378.75" y="1050" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YAV5CIgd_lY1n8gO6L1_-5" target="YAV5CIgd_lY1n8gO6L1_-7" edge="1">
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-5" target="bkzH_HI_l93UBFhGANAZ-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-5" value="Ввод: CAPEC, CWE, Инциденты" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="170" width="170" height="60" as="geometry" />
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-5" value="Ввод: № инцидента" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="338.75" y="120" width="172.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YAV5CIgd_lY1n8gO6L1_-7" target="YAV5CIgd_lY1n8gO6L1_-9" edge="1">
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-7" target="bkzH_HI_l93UBFhGANAZ-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-7" value="ПО обращается к таблице инцидентов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="347.5" y="270" width="255" height="60" as="geometry" />
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-7" value="ПО обращается к датасет регламентов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="230" width="215" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YAV5CIgd_lY1n8gO6L1_-9" target="YAV5CIgd_lY1n8gO6L1_-12" edge="1">
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-10" target="bkzH_HI_l93UBFhGANAZ-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-9" value="Создание файла csv таблицы &quot;Обнаружение и регистрация инцидентов&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="370" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YAV5CIgd_lY1n8gO6L1_-11" target="YAV5CIgd_lY1n8gO6L1_-3" edge="1">
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-10" target="bkzH_HI_l93UBFhGANAZ-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-11" value="Вывод: файлы CSV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="375" y="650" width="200" height="60" as="geometry" />
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-10" value="№ инцидента&amp;nbsp; найден?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338.75" y="320" width="172.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YAV5CIgd_lY1n8gO6L1_-12" target="YAV5CIgd_lY1n8gO6L1_-13" edge="1">
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-11" value="Вывод сообщения об ошибке поиска" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-13" target="bkzH_HI_l93UBFhGANAZ-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-12" value="Создание файла csv таблицы &quot;Реагирование на инциденты&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="470" width="250" height="50" as="geometry" />
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-13" value="Переход к данным&amp;nbsp;инцидента" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YAV5CIgd_lY1n8gO6L1_-13" target="YAV5CIgd_lY1n8gO6L1_-11" edge="1">
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-15" target="bkzH_HI_l93UBFhGANAZ-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-13" value="Создание файла csv таблицы &quot;Ликвидация последствий инцидентов&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="559.5" width="250" height="50" as="geometry" />
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-15" value="Получение списка регламентов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="510" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-16" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-17" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-11" target="bkzH_HI_l93UBFhGANAZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-20" target="bkzH_HI_l93UBFhGANAZ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-20" value="Создание документа Обнаружение и регистрация инцидентов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="600" width="188.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-22" target="bkzH_HI_l93UBFhGANAZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-22" value="Вывод: документы Обнаружение и регистрация инцидентов, Реагирование на инциденты, Ликвидация последствий инцидентов" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="313.75" y="930" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-25" target="bkzH_HI_l93UBFhGANAZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-25" value="Создание документа Реагирование на инциденты" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="486.25" y="690" width="188.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bkzH_HI_l93UBFhGANAZ-26" target="bkzH_HI_l93UBFhGANAZ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkzH_HI_l93UBFhGANAZ-26" value="Создание документа Ликвидация последствий инцидентов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="486.25" y="780" width="188.75" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

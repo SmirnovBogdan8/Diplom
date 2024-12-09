@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Страница — 1" id="FZuVYSKQKKseB5JXQPXO">
     <mxGraphModel dx="1290" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,13 +16,13 @@
         <mxCell id="YAV5CIgd_lY1n8gO6L1_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YAV5CIgd_lY1n8gO6L1_-5" target="YAV5CIgd_lY1n8gO6L1_-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-5" value="Ввод: CAPEC, CWE, результат калькулятора SSVC, Инциденты" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="YAV5CIgd_lY1n8gO6L1_-5" value="Ввод: CAPEC, CWE, Инциденты" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="170" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YAV5CIgd_lY1n8gO6L1_-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YAV5CIgd_lY1n8gO6L1_-7" target="YAV5CIgd_lY1n8gO6L1_-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YAV5CIgd_lY1n8gO6L1_-7" value="ПО обращается к API SSVC для генерации регламентов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YAV5CIgd_lY1n8gO6L1_-7" value="ПО обращается к таблице инцидентов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="347.5" y="270" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YAV5CIgd_lY1n8gO6L1_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YAV5CIgd_lY1n8gO6L1_-9" target="YAV5CIgd_lY1n8gO6L1_-12" edge="1">

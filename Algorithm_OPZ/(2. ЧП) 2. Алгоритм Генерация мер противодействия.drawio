@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Страница — 1" id="FZuVYSKQKKseB5JXQPXO">
-    <mxGraphModel dx="1386" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="83ufd9dUUjp7Ebb18AGb-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="83ufd9dUUjp7Ebb18AGb-10" target="83ufd9dUUjp7Ebb18AGb-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="83ufd9dUUjp7Ebb18AGb-10" value="ПО обращается к ресурсу&amp;nbsp;&lt;div&gt;&lt;div&gt;https://attack.mitre.org/&lt;/div&gt;&lt;div&gt;mitigations/&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="83ufd9dUUjp7Ebb18AGb-10" value="ПО обращается к датасет мер" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="317.5" y="230" width="215" height="60" as="geometry" />
         </mxCell>
         <mxCell id="83ufd9dUUjp7Ebb18AGb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="83ufd9dUUjp7Ebb18AGb-13" target="83ufd9dUUjp7Ebb18AGb-14" edge="1">

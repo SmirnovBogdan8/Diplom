@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 YaBrowser/24.12.0.0 Safari/537.36" version="26.0.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 YaBrowser/24.12.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Страница — 1" id="eE1Gje8A0oezQRLzRqn4">
     <mxGraphModel dx="1290" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,11 +12,11 @@
         </mxCell>
         <mxCell id="DnC8KK1tUiim30TQwv2K-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="360" as="sourcePoint" />
-            <mxPoint x="680" y="360" as="targetPoint" />
+            <mxPoint x="40" y="380" as="sourcePoint" />
+            <mxPoint x="680" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DnC8KK1tUiim30TQwv2K-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" target="_Ppz5yy3teJbMIMyHfcG-13">
+        <mxCell id="DnC8KK1tUiim30TQwv2K-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" target="_Ppz5yy3teJbMIMyHfcG-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="160" as="sourcePoint" />
             <mxPoint x="40" y="920" as="targetPoint" />
@@ -40,93 +40,114 @@
             <mxPoint x="680" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_POBZS_AvcctEKIHJC5_-13" value="Результат вывода ОПЗ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_POBZS_AvcctEKIHJC5_-13" value="Результат вывода" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="160" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_POBZS_AvcctEKIHJC5_-14" value="Работа ПО" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="490" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-3" value="Меры обнаружения инцидентов" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="122.5" y="200" width="160" height="130" as="geometry">
+        <mxCell id="_Ppz5yy3teJbMIMyHfcG-3" value="Меры обнаружения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="122.5" y="190" width="197.5" height="160" as="geometry">
             <mxRectangle x="122.5" y="200" width="170" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-4" value="id Техники" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_Ppz5yy3teJbMIMyHfcG-3">
-          <mxGeometry y="40" width="160" height="30" as="geometry" />
+        <mxCell id="_Ppz5yy3teJbMIMyHfcG-4" value="id Техники" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="_Ppz5yy3teJbMIMyHfcG-3" vertex="1">
+          <mxGeometry y="40" width="197.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-5" value="id Меры" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_Ppz5yy3teJbMIMyHfcG-3">
-          <mxGeometry y="70" width="160" height="30" as="geometry" />
+        <mxCell id="_Ppz5yy3teJbMIMyHfcG-5" value="id Меры" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="_Ppz5yy3teJbMIMyHfcG-3" vertex="1">
+          <mxGeometry y="70" width="197.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-6" value="Название меры обнаружения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_Ppz5yy3teJbMIMyHfcG-3">
-          <mxGeometry y="100" width="160" height="30" as="geometry" />
+        <mxCell id="_Ppz5yy3teJbMIMyHfcG-6" value="Название меры" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="_Ppz5yy3teJbMIMyHfcG-3" vertex="1">
+          <mxGeometry y="100" width="197.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-7" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="82.5" y="200" width="40" height="40" as="geometry" />
+        <mxCell id="8tQYw71IG7BnQvZkCHot-1" value="Описание меры" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="_Ppz5yy3teJbMIMyHfcG-3" vertex="1">
+          <mxGeometry y="130" width="197.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-8" value="Меры ликвидации последствий инцидентов" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="200" width="160" height="140" as="geometry">
-            <mxRectangle x="290" y="400" width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="_Ppz5yy3teJbMIMyHfcG-7" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="82.5" y="190" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-9" value="id Техники" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_Ppz5yy3teJbMIMyHfcG-8">
-          <mxGeometry y="40" width="160" height="30" as="geometry" />
+        <mxCell id="_Ppz5yy3teJbMIMyHfcG-12" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="400" y="190" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-10" value="id Меры" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_Ppz5yy3teJbMIMyHfcG-8">
-          <mxGeometry y="70" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-11" value="Название меры ликвидации последствий" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_Ppz5yy3teJbMIMyHfcG-8">
-          <mxGeometry y="100" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-12" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="440" y="200" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-13" value="Внешние данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_Ppz5yy3teJbMIMyHfcG-13" value="Внешние данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="650" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Ppz5yy3teJbMIMyHfcG-19" target="_Ppz5yy3teJbMIMyHfcG-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-19" value="ПО выводит документ Данные техники по сценарию атаки" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="95" y="420" width="90" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Ppz5yy3teJbMIMyHfcG-21" target="_Ppz5yy3teJbMIMyHfcG-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-21" value="Данные об атаке" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="570" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Ppz5yy3teJbMIMyHfcG-23">
+        <mxCell id="_Ppz5yy3teJbMIMyHfcG-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="_Ppz5yy3teJbMIMyHfcG-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="360" y="465" />
-              <mxPoint x="360" y="600" />
-            </Array>
-            <mxPoint x="520" y="600" as="targetPoint" />
+            <mxPoint x="185" y="445" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-23" value="ПО обращается к датасет" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="240" y="425" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Ppz5yy3teJbMIMyHfcG-24" target="_Ppz5yy3teJbMIMyHfcG-25">
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Ppz5yy3teJbMIMyHfcG-21" target="I5WFuMwbHXI_1HJDKwXt-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-24" value="Датасет мер по техникам" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="570" width="120" height="60" as="geometry" />
+        <mxCell id="_Ppz5yy3teJbMIMyHfcG-21" value="Сценарий атаки" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="570" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_Ppz5yy3teJbMIMyHfcG-25" target="_Ppz5yy3teJbMIMyHfcG-7">
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Ppz5yy3teJbMIMyHfcG-24" target="I5WFuMwbHXI_1HJDKwXt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ppz5yy3teJbMIMyHfcG-24" value="База данных техника Mitre Att&amp;amp;ck - меры" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="570" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="I5WFuMwbHXI_1HJDKwXt-2" target="_Ppz5yy3teJbMIMyHfcG-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="450" />
-              <mxPoint x="460" y="390" />
+              <mxPoint x="600" y="390" />
               <mxPoint x="103" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Ppz5yy3teJbMIMyHfcG-25" target="_Ppz5yy3teJbMIMyHfcG-12">
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="I5WFuMwbHXI_1HJDKwXt-2" target="_Ppz5yy3teJbMIMyHfcG-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="390" />
+              <mxPoint x="420" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-2" value="ПО выводит регламенты по техникам" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="405" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I5WFuMwbHXI_1HJDKwXt-3" target="I5WFuMwbHXI_1HJDKwXt-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_Ppz5yy3teJbMIMyHfcG-25" value="ПО формирует регламенты" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="540" y="410" width="80" height="80" as="geometry" />
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-3" value="ПО получает данные о техниках сценария" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="95" y="400" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I5WFuMwbHXI_1HJDKwXt-4" target="_Ppz5yy3teJbMIMyHfcG-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="530" />
+              <mxPoint x="360" y="530" />
+              <mxPoint x="360" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-4" value="ПО обращается к БД Техника Mitre Att&amp;amp;ck - меры" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="405" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I5WFuMwbHXI_1HJDKwXt-5" target="I5WFuMwbHXI_1HJDKwXt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-5" value="ПО форматирует json формат в формат файла xlsx" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="405" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-13" value="Меры смягчения последствий" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="190" width="197.5" height="160" as="geometry">
+            <mxRectangle x="122.5" y="200" width="170" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-14" value="id Техники" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="I5WFuMwbHXI_1HJDKwXt-13">
+          <mxGeometry y="40" width="197.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-15" value="id Меры" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="I5WFuMwbHXI_1HJDKwXt-13">
+          <mxGeometry y="70" width="197.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-16" value="Название меры" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="I5WFuMwbHXI_1HJDKwXt-13">
+          <mxGeometry y="100" width="197.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I5WFuMwbHXI_1HJDKwXt-17" value="Описание меры" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="I5WFuMwbHXI_1HJDKwXt-13">
+          <mxGeometry y="130" width="197.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
